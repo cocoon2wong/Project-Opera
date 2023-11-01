@@ -1,0 +1,130 @@
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Author: Conghao Wong
+%% Date: 2023-11-01 09:16:39
+%% LastEditors: Conghao Wong
+%% LastEditTime: 2023-11-01 09:38:47
+%% Description: file content
+%% Github: https://cocoon2wong.github.io
+%% Copyright 2023 Conghao Wong, All Rights Reserved.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+% Figures, tables, and equations
+\newcommand{\FIG}[1]{\cref{#1}}
+\newcommand{\TABLE}[1]{\cref{#1}}
+\newcommand{\EQUA}[1]{\cref{#1}}
+
+% Model name
+% It SHOULD BE RENEWED in each paper!
+\newcommand{\MODEL}{Unnamed Model}
+
+% User marks
+\newcommand{\MARK}[1]{\textcolor{black}{\textbf{#1}}}
+\newcommand{\xmark}{$\times$}
+\newcommand{\xm}{\xmark}
+\newcommand{\cm}{\checkmark}
+
+% Paragraph
+\newcommand{\HARDINDENT}{\hspace{1pc}}
+
+% Others
+\newcommand{\NA}{N/A}
+\newcommand{\ETAL}{{\emph{et al.}}}
+\newcommand{\EG}{{\emph{e.g.}}}
+\newcommand{\IE}{{\emph{i.e.}}}
+
+% Publications
+\newcommand{\CVPR}{CVPR}
+\newcommand{\ICCV}{ICCV}
+\newcommand{\ICPR}{ICPR}
+\newcommand{\ICRA}{ICRA}
+\newcommand{\ECCV}{ECCV}
+\newcommand{\NEURIPS}{NeurIPS}
+\newcommand{\AAAI}{AAAI}
+\newcommand{\TPAMI}{TPAMI}
+\newcommand{\PR}{PR}
+\newcommand{\TITS}{TITS}
+\newcommand{\ARXIV}{arXiv}
+
+% Other baseline works
+% ----- before 2020 -----
+\newcommand{\SOCIALLSTM}{Social-LSTM}
+\newcommand{\SOCIALLSTMCITE}{\cite{alahi2016social}}
+\newcommand{\SOCIALGAN}{S-GAN}
+\newcommand{\SOCIALGANCITE}{\cite{gupta2018social}}
+\newcommand{\SOPHIE}{SoPhie}
+\newcommand{\SOPHIECITE}{\cite{sadeghian2019sophie}}
+\newcommand{\BIGAT}{S-BiGAT}
+\newcommand{\BIGATCITE}{\cite{kosaraju2019social}}
+\newcommand{\SRLSTMCITE}{\cite{zhang2019sr}}
+\newcommand{\SRPAMI}{E-SR-LSTM}
+\newcommand{\PEEKING}{Next}
+\newcommand{\PEEKINGCITE}{\cite{liang2019peeking}}
+
+% ----- 2020 -----
+\newcommand{\SIMAUG}{SimAug}
+\newcommand{\SIMAUGCITE}{\cite{liang2020simaug}}
+\newcommand{\PECNET}{PECNet}
+\newcommand{\PECNETCITE}{\cite{mangalam2020not}}
+\newcommand{\SRLSTM}{SR-LSTM}
+\newcommand{\SRPAMICITE}{\cite{zhang2020social}}
+\newcommand{\GARDEN}{Multiverse}
+\newcommand{\GARDENCITE}{\cite{liang2020garden}}
+\newcommand{\STAR}{STAR}
+\newcommand{\STARCITE}{\cite{yu2020spatio}}
+\newcommand{\TP}{TF}
+\newcommand{\TPCITE}{\cite{giuliari2020transformer}}
+\newcommand{\TPNMS}{TPNMS}
+\newcommand{\TPNMSCITE}{\cite{liang2020temporal}}
+\newcommand{\TRAJECTRONPP}{Trajectron++}
+\newcommand{\TRAJECTRONPPCITE}{\cite{salzmann2020trajectron}}
+\newcommand{\YNET}{$\textsf{Y}$-net}
+\newcommand{\YNETCITE}{\cite{mangalam2020s}}
+\newcommand{\MANTRA}{MANTRA}
+\newcommand{\MANTRACITE}{\cite{marchetti2020mantra}}
+\newcommand{\STGCNN}{Social-STGCNN}
+\newcommand{\STGCNNCITE}{\cite{mohamed2020social}}
+
+% ----- 2021 -----
+\newcommand{\INTROVERT}{Introvert}
+\newcommand{\INTROVERTCITE}{\cite{shafiee2021introvert}}
+\newcommand{\LBEBM}{LB-EBM}
+\newcommand{\LBEBMCITE}{\cite{pang2021trajectory}}
+\newcommand{\SPECTGNN}{SpecTGNN}
+\newcommand{\SPECTGNNCITE}{\cite{cao2021spectral}}
+\newcommand{\SGNET}{SGNet}
+\newcommand{\AGENTFORMER}{Agentformer}
+\newcommand{\AGENTFORMERCITE}{\cite{yuan2021agentformer}}
+\newcommand{\DAGNET}{DAG-Net}
+\newcommand{\DAGNETCITE}{\cite{monti2021dag}}
+\newcommand{\STCNET}{STC-Net}
+\newcommand{\STCNETCITE}{\cite{li2021spatial}}
+\newcommand{\MSN}{MSN}
+\newcommand{\MSNCITE}{\cite{wong2021msn}}
+
+% ----- 2022 -----
+\newcommand{\VMODEL}{V$^2$-Net}
+\newcommand{\VCITE}{\cite{wong2022view}}
+\newcommand{\MID}{MID}
+\newcommand{\MIDCITE}{\cite{gu2022stochastic}}
+\newcommand{\SHENET}{SHENet}
+\newcommand{\SHENETCITE}{\cite{meng2022forecasting}}
+\newcommand{\SEEM}{SEEM}
+\newcommand{\SEEMCITE}{\cite{wang2022seem}}
+\newcommand{\CSCNET}{CSCNet}
+\newcommand{\CSCNETCITE}{\cite{xia2022cscnet}}
+\newcommand{\SSL}{Social-SSL}
+\newcommand{\SSLCITE}{\cite{tsao2022social}}
+\newcommand{\NSPSFM}{NSP-SFM}
+\newcommand{\NSPSFMCITE}{\cite{yue2022human}}
+
+% ----- 2023 -----
+\newcommand{\EVMODEL}{E-V$^2$-Net}
+\newcommand{\EVCITE}{\cite{wong2023another}}
+\newcommand{\EQMOTION}{EqMotion}
+\newcommand{\EQMOTIONCITE}{\cite{xu2023eqmotion}}
+\newcommand{\LED}{LED}
+\newcommand{\LEDCITE}{\cite{mao2023leapfrog}}
+\newcommand{\FLOWCHAIN}{FlowChain}
+\newcommand{\FLOWCHAINCITE}{\cite{maeda2023fast}}
+\newcommand{\IMP}{IMP}
+\newcommand{\IMPCITE}{\cite{shi2023representing}}
